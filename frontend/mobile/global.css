@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-primary: 5 150 105;
+    --color-primary-dark: 4 120 87;
+    --color-accent: 245 158 11;
+    --color-success: 22 163 74;
+    --color-danger: 220 38 38;
+    --color-warning: 217 119 6;
+
+    --color-bg: 248 250 252;
+    --color-surface: 255 255 255;
+    --color-border: 226 232 240;
+    --color-text: 15 23 42;
+    --color-text-muted: 100 116 139;
+
+    --radius-sm: 10px;
+    --radius-md: 14px;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+}
+
+@layer base {
+    * {
+        border-color: rgb(var(--color-border));
+    }
+}
+
+@layer components {
+    .screen {
+        @apply flex-1 bg-slate-50;
+    }
+
+    .screen-padding {
+        @apply px-4 py-4;
+    }
+
+    .card {
+        @apply rounded-2xl border border-slate-200 bg-white p-4;
+    }
+
+    .card-tight {
+        @apply rounded-2xl border border-slate-200 bg-white p-3;
+    }
+
+    .section-title {
+        @apply text-lg font-bold text-slate-900;
+    }
+
+    .section-subtitle {
+        @apply text-sm text-slate-500;
+    }
+
+    .input {
+        @apply rounded-xl border border-slate-300 bg-white px-4 py-3 text-slate-900;
+    }
+
+    .input-label {
+        @apply mb-2 text-sm font-semibold text-slate-700;
+    }
+
+    .btn {
+        @apply items-center justify-center rounded-xl px-4 py-3;
+    }
+
+    .btn-primary {
+        @apply items-center justify-center rounded-xl bg-emerald-600 px-4 py-3;
+    }
+
+    .btn-primary-text {
+        @apply text-base font-bold text-white;
+    }
+
+    .btn-secondary {
+        @apply items-center justify-center rounded-xl border border-slate-300 bg-white px-4 py-3;
+    }
+
+    .btn-secondary-text {
+        @apply text-base font-semibold text-slate-800;
+    }
+
+    .btn-danger {
+        @apply items-center justify-center rounded-xl bg-red-600 px-4 py-3;
+    }
+
+    .btn-danger-text {
+        @apply text-base font-bold text-white;
+    }
+
+    .badge {
+        @apply rounded-full px-3 py-1 text-xs font-bold;
+    }
+
+    .badge-success {
+        @apply rounded-full bg-green-100 px-3 py-1 text-xs font-bold text-green-700;
+    }
+
+    .badge-warning {
+        @apply rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-700;
+    }
+
+    .badge-danger {
+        @apply rounded-full bg-red-100 px-3 py-1 text-xs font-bold text-red-700;
+    }
+
+    .badge-info {
+        @apply rounded-full bg-sky-100 px-3 py-1 text-xs font-bold text-sky-700;
+    }
+
+    .price {
+        @apply text-lg font-bold text-slate-900;
+    }
+
+    .price-old {
+        @apply text-sm text-slate-400 line-through;
+    }
+
+    .price-save {
+        @apply text-sm font-semibold text-green-700;
+    }
+
+    .divider {
+        @apply h-px bg-slate-200;
+    }
+
+    .list-gap {
+        @apply gap-3;
+    }
+
+    .shadow-soft {
+        @apply shadow-sm;
+    }
+}

@@ -1,0 +1,88 @@
+import { InventoryItem } from "../types/models";
+
+export const inventory: InventoryItem[] = [
+  {
+    id: "inv1",
+    productId: "p1",
+    availableQty: 25,
+    reservedQty: 2,
+    reorderLevel: 5,
+  },
+  {
+    id: "inv2",
+    productId: "p2",
+    availableQty: 40,
+    reservedQty: 3,
+    reorderLevel: 8,
+  },
+  {
+    id: "inv3",
+    productId: "p3",
+    availableQty: 18,
+    reservedQty: 1,
+    reorderLevel: 5,
+  },
+  {
+    id: "inv4",
+    productId: "p4",
+    availableQty: 30,
+    reservedQty: 2,
+    reorderLevel: 6,
+  },
+  {
+    id: "inv5",
+    productId: "p5",
+    availableQty: 22,
+    reservedQty: 1,
+    reorderLevel: 5,
+  },
+  {
+    id: "inv6",
+    productId: "p6",
+    availableQty: 16,
+    reservedQty: 0,
+    reorderLevel: 4,
+  },
+  {
+    id: "inv7",
+    productId: "p7",
+    availableQty: 28,
+    reservedQty: 2,
+    reorderLevel: 5,
+  },
+  {
+    id: "inv8",
+    productId: "p8",
+    availableQty: 35,
+    reservedQty: 1,
+    reorderLevel: 6,
+  },
+  {
+    id: "inv9",
+    productId: "p9",
+    availableQty: 12,
+    reservedQty: 1,
+    reorderLevel: 4,
+  },
+  {
+    id: "inv10",
+    productId: "p10",
+    availableQty: 50,
+    reservedQty: 5,
+    reorderLevel: 10,
+  },
+  {
+    id: "inv11",
+    productId: "p11",
+    availableQty: 0,
+    reservedQty: 0,
+    reorderLevel: 8,
+  },
+  {
+    id: "inv12",
+    productId: "p12",
+    availableQty: 24,
+    reservedQty: 2,
+    reorderLevel: 6,
+  },
+];

@@ -1,0 +1,40 @@
+import { Address } from '../types/models';
+
+export const addresses: Address[] = [
+  {
+    id: 'a1',
+    userId: 'u2',
+    fullAddress: 'Near Bus Stand, Ward No 4, Ilkal',
+    landmark: 'Opposite Hanuman Temple',
+    area: 'Bus Stand Road',
+    city: 'Ilkal',
+    pincode: '587125',
+    lat: 15.9592,
+    lng: 76.1137,
+    isDefault: true,
+  },
+  {
+    id: 'a2',
+    userId: 'u2',
+    fullAddress: 'Shivaji Circle, Ilkal',
+    landmark: 'Near Government School',
+    area: 'Shivaji Circle',
+    city: 'Ilkal',
+    pincode: '587125',
+    lat: 15.9575,
+    lng: 76.1161,
+    isDefault: false,
+  },
+  {
+    id: 'a3',
+    userId: 'u3',
+    fullAddress: 'Outside Service Area Sample Address',
+    landmark: 'Near Old Market',
+    area: 'Old Market',
+    city: 'Nearby Town',
+    pincode: '587124',
+    lat: 15.9401,
+    lng: 76.0901,
+    isDefault: true,
+  },
+];
